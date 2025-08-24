@@ -1,0 +1,55 @@
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Datos recibidos: Nombre=Naomi, Contraseña=1244, Edad=21, Tarjeta=4523
+
+Fecha: 2025-04-17 21:04:32
+-------------------------------
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Datos recibidos: Nombre=Jose, Contraseña=5677, Edad=34, Tarjeta=6788
+
+Fecha: 2025-04-17 21:25:28
+-------------------------------
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Datos recibidos: Nombre=Juan, Contraseña=2345, Edad=45, Tarjeta=9906
+
+Fecha: 2025-04-16 21:28:44
+-------------------------------
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Datos recibidos: Nombre=Gonzales, Contraseña=23345, Edad=56, Tarjeta=57778
+
+Fecha: 2025-04-16 22:23:51
+-------------------------------
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Datos recibidos: Nombre=Rafael, Contraseña=233434, Edad=34, Tarjeta=342342
+
+Fecha: 2025-04-16 22:25:43
+-------------------------------
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Datos recibidos: Nombre=Joel, Contraseña=24556, Edad=76, Tarjeta=1244
+
+Fecha: 2025-04-16 22:27:50
+-------------------------------
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Datos recibidos: Nombre=Naomi, Contraseña=7889, Edad=19, Tarjeta=47
+
+Fecha: 2025-04-16 22:41:09
+-------------------------------
+Nueva víctima:
+IP: ::1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Datos recibidos: Sin datos
+Fecha: 2025-04-21 15:41:57
+-------------------------------

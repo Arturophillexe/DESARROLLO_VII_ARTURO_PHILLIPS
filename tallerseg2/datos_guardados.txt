@@ -1,0 +1,10 @@
+Usuario: marin, Contraseña: 1234, Edad: 19, Tarjeta: 12345
+Usuario: Marina, Contraseña: 12345, Edad: 20, Tarjeta: 2322
+Usuario: <script>alert('Hacked!');</script>, Contraseña: <script>alert('Hacked!');</script>, Edad: <script>alert('Hacked!');</script>, Tarjeta: <script>alert('Hacked!');</script>
+Usuario: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;, Contraseña: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;, Edad: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;, Tarjeta: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;
+Usuario: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;, Contraseña: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;, Edad: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;, Tarjeta: &lt;script&gt;alert(&#039;XSS!&#039;);&lt;/script&gt;
+Usuario: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;, Contraseña: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;, Edad: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;, Tarjeta: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;
+Usuario: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;, Contraseña: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;, Edad: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;, Tarjeta: &lt;script&gt;alert(&#039;Hacked!&#039;);&lt;/script&gt;
+Usuario: Jose, Contraseña: 458, Edad: 47, Tarjeta: 4858
+Usuario: Naomi, Contraseña: 2345, Edad: 20, Tarjeta: 4523
+Usuario: arturo, Contraseña: 12345, Edad: 25, Tarjeta: 0000111122223333444

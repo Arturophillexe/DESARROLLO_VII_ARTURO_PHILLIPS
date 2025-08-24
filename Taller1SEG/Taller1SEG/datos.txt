@@ -1,0 +1,16 @@
+Nombre=Jose, Contraseña=5677, Edad=34, Tarjeta=6788
+
+Nombre=Juan, Contraseña=2345, Edad=45, Tarjeta=9906
+
+Nombre=Gonzales, Contraseña=23345, Edad=56, Tarjeta=57778
+
+Nombre=Rafael, Contraseña=233434, Edad=34, Tarjeta=342342
+
+Nombre=Joel, Contraseña=24556, Edad=76, Tarjeta=1244
+
+Nombre=Naomi, Contraseña=7889, Edad=19, Tarjeta=47
+
+Nombre=<script>alert('Hacked!');</script>, Contraseña=<script>alert('Hacked!');</script>, Edad=<script>alert('Hacked!');</script>, Tarjeta=<script>alert('Hacked!');</script>
+
+Nombre=arturo, Contraseña=interezanet, Edad=25, Tarjeta=0011223344
+

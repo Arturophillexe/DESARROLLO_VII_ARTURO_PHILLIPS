@@ -1,0 +1,5 @@
+Usuario: marin, Contraseña: 2343, Edad: 34, Tarjeta: 34234
+Usuario: Rafael, Contraseña: 1234, Edad: 34, Tarjeta: 3424
+Usuario: NaomiADM, Contraseña: 34555, Edad: 45, Tarjeta: 3455
+Usuario: Naomi, Contraseña: 123232, Edad: 23, Tarjeta: 12345
+Usuario: marin, Contraseña: 23244, Edad: 43, Tarjeta: 3424
