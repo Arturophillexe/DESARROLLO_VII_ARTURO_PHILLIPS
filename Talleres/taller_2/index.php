@@ -6,13 +6,13 @@ $edad = 25;
 $altura = 1.80;
 $esEstudiante = true;
 
-echo "hello world";
+echo "hello world <br>";
 echo "nombre: $nombre<br>";
 echo "edad: $edad<br>";
 echo "altura: $altura<br>";
 echo "es estudiante? ". ($esEstudiante ? "si" : "no")."<br>";
 //paso 4
-$presentacion1 = "hola, mi nombre es ". $nombre . "y tengo ". $edad ." años";
+$presentacion1 = "hola, mi nombre es ". $nombre . " y tengo ". $edad ." años";
 $presentacion2 = "hola, soy $nombre y tengo $edad años";
 
 define ("Saludo", "Bienvenido");
@@ -42,7 +42,7 @@ $ciudad = "mumbai";
 
 define ("Profecion","Ingeniero industrial");
 
-$mensaje1 = "नमस्ते, mi nombre es " . $nombre3 . "y tengo ". $edad3. "años.";
+$mensaje1 = "नमस्ते, mi nombre es " . $nombre3 . "y tengo ". $edad3. " años.";
 $mensaje2 ="Vivo en $ciudad y Soy ". Profecion . ".";
 
 echo $mensaje1. "<br>";
