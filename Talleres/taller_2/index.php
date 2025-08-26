@@ -20,4 +20,19 @@ $mensaje = Saludo . " ". $nombre;
 echo $presentacion1."<br>";
 echo $presentacion2."<br>";
 echo $mensaje."<br>";
+
+$nombre2 = "maria";
+$edad2 = 22 ;
+echo "Hola, mundo!<br>";
+echo "Mi nombre es $nombre2 <br>";
+
+// Usando print
+print "Tengo $edad2 años<br>";
+
+// Usando printf (permite formateo)
+printf("Me llamo %s y tengo %d años<br>", $nombre2, $edad2);
+
+// Usando var_dump (útil para debugging)
+var_dump($nombre2);
+echo "<br>";
 ?>
