@@ -1,0 +1,38 @@
+[
+    {
+        "clase": "Gerente",
+        "datos": {
+            "nombre": "Ricardo Milos",
+            "idEmpleado": 101,
+            "salarioBase": 6200,
+            "departamento": "Innovaci\u00f3n"
+        }
+    },
+    {
+        "clase": "Desarrollador",
+        "datos": {
+            "nombre": "Walter White",
+            "idEmpleado": 201,
+            "salarioBase": 3850,
+            "lenguajePrincipal": "Python"
+        }
+    },
+    {
+        "clase": "Desarrollador",
+        "datos": {
+            "nombre": "Jesse Pinkman",
+            "idEmpleado": 202,
+            "salarioBase": 3400,
+            "lenguajePrincipal": "React"
+        }
+    },
+    {
+        "clase": "Desarrollador",
+        "datos": {
+            "nombre": "Saul Goodman",
+            "idEmpleado": 305,
+            "salarioBase": 4100,
+            "lenguajePrincipal": "SQL"
+        }
+    }
+]
