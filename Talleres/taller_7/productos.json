@@ -1,0 +1,7 @@
+{
+   "1": {"nombre":"arroz","precio":3.00,"descripcion":"bolsa de 5 libras"},
+   "2": {"nombre":"aceite","precio":5.00,"descripcion":"medio galon de aceite de canela"},
+   "3": {"nombre":"tuna","precio":3.50,"descripcion":"combo de 3 tunas enlatadas"},
+   "4": {"nombre":"chuleta","precio":1.75,"descripcion":"precio de 1 chuleta"},
+   "5": {"nombre":"helado","precio":4.00,"descripcion":"helado de medio galon"}
+}
