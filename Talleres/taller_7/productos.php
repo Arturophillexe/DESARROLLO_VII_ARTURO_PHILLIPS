@@ -1,4 +1,5 @@
-<?php require 'cargar_productos.php'; ?>
+<?php session_start(); 
+require 'cargar_productos.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,17 +14,21 @@
    <?php
 
 $inventario = cargarProductos();
-$c=1;
-echo '<form action="al_carrito.php" method="post">';
-foreach($inventario as $id => $obj){
-    echo '    
-    <label for="objeto'.$c.'">'.$obj["nombre"].':</label>
-    <label for="descr'.$c.'"> '.$obj["descripcion"].'</label><br>
-    <label for="descr'.$c.'"> '.$obj["precio"].'</label><br>
-    <label for="cantidad">cantidad</label>
-    <input type="number" name="cantidad" ><br><br>';
-}
-echo '<button type="submit">al carrito</button>';
-?>
+$c=1;?>
+<form action="al_carrito.php" method="post">
+        <?php foreach ($inventario as $id => $producto): ?>
+        <label for="nombre producto">
+            <?= htmlspecialchars($producto['nombre']) ?></label></n>
+            <label for="producto precio"><?= $producto['precio'] ?></label><br>
+            <label for="producto descrp"><?= $producto['descripcion'] ?></label><br>
+            <label for="cantidad">cantidad</label>
+                <input type="number" name="cantidad[<?= $id ?>]" value="1" min="1">
+                <input type="hidden" name="id[]" value="<?= $id ?>"><br>
+
+                <button type="submit" name="agregar" value="<?= $id ?>">Añadir al carrito</button><br><br>z
+            
+        
+        <?php endforeach; ?>
+</form>
 </body>
 </html>
