@@ -9,21 +9,27 @@ $total = 0;
     <p>El carrito está vacío.</p>
 <?php else: ?>
     <table border="1">
-        <tr><th>Producto</th><th>Precio</th><th>Cantidad</th><th>Subtotal</th><th>Acción</th></tr>
+        
         <?php foreach ($carrito as $id => $item): 
             $subtotal = $item['precio'] * $item['cantidad'];
             $total += $subtotal;
         ?>
-        <tr>
-            <td><?= htmlspecialchars($item['nombre']) ?></td>
-            <td>$<?= $item['precio'] ?></td>
-            <td><?= $item['cantidad'] ?></td>
-            <td>$<?= $subtotal ?></td>
-            <td><a href="carrito_rm.php?id=<?= $id ?>">Eliminar</a></td>
-        </tr>
+        <h3>Recibo</h3>
+        <label for="product nombre">producto</label>
+            <?= htmlspecialchars($item['nombre']) ?>
+            <p>................................</p>
+            <label for="precio">precio neto</label>
+            $<?= $item['precio'] ?>
+            <p>...........</p>
+            <label for="cantidad">cantidad</label>
+            <?= $item['cantidad'] ?>
+            <label for="subtotal">---- subtotal:</label>
+            $<?= $subtotal ?><br>
+            <a href="carrito_rm.php?id=<?= $id ?>">Eliminar</a><br><br>
+
         <?php endforeach; ?>
-    </table>
     <p><strong>Total: $<?= $total ?></strong></p>
     <a href="checkout.php">Finalizar compra</a>
-<?php endif; ?>
+<?php 
+endif;?>
 <a href="productos.php">Volver a productos</a>
