@@ -1,4 +1,5 @@
 <?php
+require 'amigosmanager.php';
 require_once '../../estilo/header.php'; 
 $misAmigos = $friendModel->obtenerIdsAmigos($_SESSION['usuario_id']);
 $posts = $postModel->obtenerFeed($_SESSION['usuario_id'], $misAmigos);
